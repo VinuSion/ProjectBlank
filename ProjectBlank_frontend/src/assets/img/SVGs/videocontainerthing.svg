@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="303" height="323" viewBox="0 0 303 323">
+  <defs>
+    <filter id="Rectangle_196" x="0" y="0" width="303" height="323" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6.5" result="blur"/>
+      <feFlood flood-opacity="0.4"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="videocontainerthing" transform="translate(-0.5 -0.5)">
+    <g transform="matrix(1, 0, 0, 1, 0.5, 0.5)" filter="url(#Rectangle_196)">
+      <rect id="Rectangle_196-2" data-name="Rectangle 196" width="264" height="284" transform="translate(19.5 16.5)" fill="#1a1e29"/>
+    </g>
+    <rect id="Rectangle_261" data-name="Rectangle 261" width="264" height="149" transform="translate(20 17)" fill="#10131c"/>
+    <rect id="Rectangle_197" data-name="Rectangle 197" width="56" height="20" rx="3" transform="translate(30 176)" fill="#10131c"/>
+    <rect id="Rectangle_199" data-name="Rectangle 199" width="32" height="32" rx="16" transform="translate(30 259)" fill="#10131c"/>
+    <rect id="Rectangle_198" data-name="Rectangle 198" width="63" height="20" rx="3" transform="translate(91 176)" fill="#10131c"/>
+    <text id="PARODY" transform="translate(37 190)" fill="#fff" font-size="11" font-family="Poppins-Light, Poppins" font-weight="300"><tspan x="0" y="0">PARODY</tspan></text>
+    <text id="Harkaj33_TheFisherman" data-name="Harkaj33, TheFisherman" transform="translate(67 271)" fill="#fff" font-size="11" font-family="Poppins-Light, Poppins" font-weight="300"><tspan x="0" y="0">Harkaj33, TheFisherman</tspan></text>
+    <text id="_300_674_·_3_months_ago" data-name="300,674 · 3 months ago" transform="translate(82 287)" fill="#fff" font-size="11" font-family="Poppins-Light, Poppins" font-weight="300" opacity="0.7"><tspan x="0" y="0">300,674 · 3 months ago</tspan></text>
+    <text id="SHITPOST" transform="translate(98 190)" fill="#fff" font-size="11" font-family="Poppins-Light, Poppins" font-weight="300"><tspan x="0" y="0">SHITPOST</tspan></text>
+    <text id="PRÜKKÜLT_GUY_needs_your_help_" data-name="PRÜKKÜLT GUY needs your help!" transform="translate(30 205)" fill="#fff" font-size="15" font-family="Poppins-Regular, Poppins"><tspan x="0" y="16">PRÜKKÜLT GUY needs your help!</tspan></text>
+    <path id="eye-outline" d="M7.466,7.145A1.763,1.763,0,1,1,5.7,8.909,1.763,1.763,0,0,1,7.466,7.145m0-2.645a6.952,6.952,0,0,1,6.466,4.409A6.946,6.946,0,0,1,1,8.909,6.952,6.952,0,0,1,7.466,4.5M2.281,8.909a5.773,5.773,0,0,0,10.369,0,5.773,5.773,0,0,0-10.369,0Z" transform="translate(66 274.092)" fill="#fff" opacity="0.7"/>
+  </g>
+</svg>

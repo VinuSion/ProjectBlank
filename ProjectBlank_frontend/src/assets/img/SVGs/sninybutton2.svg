@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="529" height="106" viewBox="0 0 529 106">
+  <defs>
+    <filter id="Rectangle_255" x="0" y="0" width="529" height="106" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-opacity="0.231"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_256" x="7" y="0" width="515" height="106" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur-2"/>
+      <feFlood flood-opacity="0.231"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" y1="1" x2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.141"/>
+      <stop offset="1" stop-color="gray" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.322" y1="0.823" x2="0.97" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.231"/>
+      <stop offset="1" stop-color="gray" stop-opacity="0.071"/>
+    </linearGradient>
+  </defs>
+  <g id="Component_6_3" data-name="Component 6 – 3" transform="translate(12 8)">
+    <g transform="matrix(1, 0, 0, 1, -12, -8)" filter="url(#Rectangle_255)">
+      <rect id="Rectangle_255-2" data-name="Rectangle 255" width="505" height="82" transform="translate(12 8)" fill="rgba(12,15,22,0)"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -12, -8)" filter="url(#Rectangle_256)">
+      <g id="Rectangle_256-2" data-name="Rectangle 256" transform="translate(19 8)" fill="#7560e3" stroke="rgba(255,255,255,0.35)" stroke-width="4">
+        <rect width="491" height="82" stroke="none"/>
+        <rect x="2" y="2" width="487" height="78" fill="none"/>
+      </g>
+    </g>
+    <text id="SIGN_IN" data-name="SIGN IN" transform="translate(253 51)" fill="#fff" font-size="27" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="-47.344" y="0">SIGN IN</tspan></text>
+    <path id="Path_103" data-name="Path 103" d="M-113,0H102.668V73.926H-113Z" transform="translate(123.717 4.074)" opacity="0.42" fill="url(#linear-gradient)"/>
+    <path id="Path_104" data-name="Path 104" d="M-113,0H152.913V78H-59.538Z" transform="translate(345.311 3)" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>
