@@ -1,0 +1,86 @@
+#navbar {
+  z-index: 1; // This is so the navbar can appear above anything else including the "ul's" down there.
+  height: 65px;
+  width: 100%;
+  ul {
+    z-index: 1;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    margin-block-start: 0; // These following 3 are so that the navbar cant show up with those weird margin spaces.
+    margin-block-end: 0; // This
+    padding-inline-start: 0; // and this
+    .image-logo {
+      cursor: pointer;
+      padding-top: 5px;
+      margin: 0px 15px;
+    }
+    a {
+      text-decoration: none;
+      display: flex;
+      flex-direction: row-reverse; // This is so the icons show up behind the text, like this: "icon here" -- "text here".
+      align-items: center;
+    }
+    i {
+      margin-right: 5px;
+      font-size: 24px;
+    }
+    li {
+      list-style-type: none;
+      padding: 15px 20px;
+      font-style: italic;
+      font-weight: bold;
+      &:hover {
+        background-color: #3d415c;
+      }
+    }
+  }
+  .settings {
+    float: right;
+    width: 30px;
+    height: 30px;
+    margin: 17px 20px;
+    cursor: pointer;
+    transition: 0.4s;
+    &:hover {
+      transform: rotate(90deg);
+    }
+  }
+}
+
+// RESPONSIVENESS CODE PART
+
+@media screen and (max-width: 759px) {
+	#navbar {
+		ul {
+			position: absolute;
+			width: 300px;
+			flex-direction: column; // When in smaller size, the navbar is now a column instead of a row.
+			left: -300px;
+			transition: 300ms ease all;
+			top: 60px;
+			&.active { // This is the active class that the function adds when its clicked.
+				left: 0px;
+      }
+			.image-logo {
+				position: fixed;
+				z-index: 1;
+				top: 7px;
+				left: 2px;
+			}
+			li {
+				width: 100%;
+				padding-left: 0;
+				padding-right: 0;
+			}
+			a {
+				flex-direction: row; // This is so the icons can NOW show up next to the text, like this: "text here" -- "icon here".
+				margin-left: 20px;
+				justify-content: space-between; // Will make it so that the icons and text have as much space apart from eachother as possible.
+				margin-right: 20px;
+      }
+    }
+	}
+}
+
+// COLORS FOR THE NAVBAR, THE HOVER AND TEXT COLOR ARE IN: "assets/scss/base-styling/_colors.scss"

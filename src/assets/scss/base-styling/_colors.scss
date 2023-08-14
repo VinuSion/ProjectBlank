@@ -1,0 +1,93 @@
+// BUTTONS - COLORS
+
+.btnDefault { // Default Button Blue-purple color
+    border: 2px solid #8B7AE7;
+    background-color: #7863E2;
+    &:hover {
+      border-color: #A295E5;
+    }
+}
+
+.btnLightRed { // Light-Red color
+  border: 2px solid rgb(231, 122, 122);
+  background-color: rgb(226, 99, 99);
+  &:hover {
+    border-color: rgb(229, 149, 149);
+  }
+}
+/////////////////////////////////////////////////////////////////////
+// NAVBAR - THEMES AND COLORS
+
+.defaultColor { //Default Navbar Color theme
+  #navbar {
+    background-color: #1D243A;
+    ul {
+      background-color: #1D243A;
+    }
+    li:hover {
+      background-color: #2d385c;
+    }
+    a {
+      color: #ffffff;
+    }
+  }
+}
+
+.darkPurple { //Purple theme
+  #navbar {
+    background-color: #401479;
+    ul {
+      background-color: #401479;
+    }
+    li:hover {
+      background-color: #4b1c96;
+    }
+    a {
+      color: #ffffff;
+    }
+  }
+}
+/////////////////////////////////////////////////////////////////////
+// VIDEO CONTAINER THEMES AND COLORS
+
+.vidDefault { // Default Video-container color theme
+  #video-container {
+    background-color: #282e3d;
+
+    .thumbnail {
+      background-color: #151b2b;
+    }
+
+    .tagsSection li{
+      .tagTextContainer {
+        background-color: #151b2b;
+      }
+    }
+
+    .videoInfo {
+
+      .channelProfilePic {
+        background-color: #151b2b;
+      }
+
+      .videoDuration {
+        background-color: #151b2b;
+      }
+
+      .videoMore {
+        .optionsShowPopup {
+          background-color: #282e3d;
+          .listOptions li{
+            .mdi {
+              color: rgb(116, 116, 224);
+            }
+            &:hover {
+              background-color: #323b52;
+            }
+          }
+        }
+      }
+      
+    }
+  }
+}
